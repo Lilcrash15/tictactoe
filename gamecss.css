@@ -1,0 +1,123 @@
+body{
+    background: #404040;
+}
+
+#Banner {
+    width: 100%;
+    text-align: center;
+    color: orange;
+}
+
+#greeting {
+    text-align: center;
+    color: orange;
+}
+
+#background {
+    background-color: #404040;
+    width: 100vw;
+}
+
+#bodyContent {
+    color: whitesmoke;
+    align-content: center;
+    text-align: center;
+    font-size: 85px;
+}
+
+#playboard {
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    border: 1px solid black;
+}
+
+ td {
+    border: 1px solid black;
+    width: 100;
+    height: 100;
+    font-size: 48px;
+}
+
+
+#form{
+    align-content: center;
+    text-align: center;
+    font-weight: bold;
+    margin: 50px;
+    color: orange;
+    
+}
+
+#Footer{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    border: none;
+    color: orange;
+}
+
+.button{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: #fff;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.buttonDark{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: #fff;
+    background: linear-gradient(to right, #3c3b3f, #605c3c);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    color: white;
+}
+
+.buttonLight{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: #fff;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    color: black;
+}
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    color: gold;
+    font-weight: bold;
+}
+
+a:active{
+    color: green;
+    font-weight: bold;
+}

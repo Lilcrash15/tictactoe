@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <!--Meta -->
+        <meta name="Keywords" content="OIS1520, Marion Technical College, MTC, Ryan Linder, tictactoe,tic,tac,toe,x,o">
+        <meta name="Description" content="Student work from Fall 2019 in OIS1520 at Marion Technical College">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="RCStylesheet.css">
+        <!--Page Title-->
+        <title>TicTacToe by Ryan Linder for OIS1520A Fall 2019</title>
+    <link rel="stylesheet" href="gamecss.css">
+        <!--No Script -->
+        <noscript>Your computer has Javascript disabled. Contact your computer admin if you believe this is an error.</noscript>
+</head>
+<!---Background div. Changes the background color gray. Going for a dark mode.-->
+<body id="background">
+    <script src="tictactoe.js"></script>
+        <!--Beginning of Banner-->
+        <div id="Banner" type="id">
+            <!--Beginning of innter banner-->
+            <h1>
+                Tic Tac Toe
+            </h1>
+            <!--Start of greeting div-->
+            <div id="greeting" type="id">
+                <h2>
+                    <p>How to play. Click on a box to place your marker. Get 3 in a row to win!</p>
+                    <p>Click Here to set Light or Dark mode!</p>
+                    <input type="button" class="buttonLight" value="Light Mode" id="btn2" onclick="lightMode()">
+                    <input type="button" class="buttonDark" value="Dark Mode" id="btn1" onclick="darkMode()">
+                    <div id="scoreDiv"><p id="xWinner">X Score: 0</p><p id="oWinner">O Score: 0</p></div>
+                </h2>
+            </div>
+            <!--End of greeting div-->
+        </div>
+        <!--End of Banner-->
+        <table id="playboard" class="hidden">
+            <tr class="row">
+                <td id="00" onclick="move(0, 0)"></td>
+                <td id="01" onclick="move(0, 1)"></td>
+                <td id="02" onclick="move(0, 2)"></td>
+            </tr>
+            <tr class="row">
+                <td id="10" onclick="move(1, 0)"></td>
+                <td id="11" onclick="move(1, 1)"></td>
+                <td id="12" onclick="move(1, 2)"></td>
+            </tr>
+            <tr class="row">
+                <td id="20" onclick="move(2, 0)"></td>
+                <td id="21" onclick="move(2, 1)"></td>
+                <td id="22" onclick="move(2, 2)"></td>
+            </tr>
+        </table>
+        <form id="form">
+            <P><h3>Press this button to play again!</h3></P>
+            <!---Reset button to play again.-->
+            <input class="button" type="Reset" value="Reset" onclick="resetBoard();">
+            <br>
+            <br>
+            <input class="button" type="Reset" value="Reset Score" onclick="scoreReset();">
+        </form>
+    </body>
+    <!---Footer-->
+<footer id="Footer">
+        <!-- Copyright Notice and my name-->
+        <p>&copy 2019 Ryan Linder</p>
+    <!--End of Footer div-->
+</footer>
+</html>
